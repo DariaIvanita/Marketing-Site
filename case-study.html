@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Case Study | Luxury Resort Branding</title>
+<title>Case Studies | Dasha Portfolio</title>
 
 <style>
 body {
@@ -22,15 +22,15 @@ nav {
   width: 100%;
   top: 0;
   backdrop-filter: blur(10px);
+  z-index: 1000;
 }
 
-nav h1 {
-  color:#ff4da6;
-}
+nav h1 { color:#ff4da6; }
 
 nav a {
   color:white;
   text-decoration:none;
+  opacity:0.8;
 }
 
 .section {
@@ -39,6 +39,11 @@ nav a {
 
 h1,h2,h3 {
   color:#ff4da6;
+}
+
+.case {
+  margin-bottom:120px;
+  padding-top:40px;
 }
 
 .hero-img {
@@ -60,6 +65,11 @@ h1,h2,h3 {
   background:#1b1b2f;
   padding:20px;
   border-radius:12px;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .stats {
@@ -74,16 +84,14 @@ h1,h2,h3 {
 
 .stats h2 {
   font-size:32px;
+  color:#ff4da6;
 }
 
-.btn {
-  display:inline-block;
-  margin-top:30px;
-  padding:12px 20px;
-  background:#ff4da6;
-  color:white;
-  text-decoration:none;
-  border-radius:30px;
+/* separators */
+.divider {
+  height:1px;
+  background:#2a2a40;
+  margin:80px 0;
 }
 </style>
 </head>
@@ -97,50 +105,102 @@ h1,h2,h3 {
 
 <section class="section">
 
-  <h1>Luxury Resort Branding Case Study</h1>
-  <p>
-    A full branding and digital transformation project for a luxury resort aimed at increasing engagement and bookings.
-  </p>
+<!-- ===================== CASE STUDY 1 ===================== -->
+<div class="case">
+  <h1>Luxury Resort Branding</h1>
+  <p>Full brand transformation to modernize a luxury resort and increase bookings.</p>
 
   <img class="hero-img" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
 
   <div class="grid">
-
     <div class="card">
       <h3>Problem</h3>
-      <p>The resort had outdated branding and low online engagement.</p>
+      <p>Outdated branding and weak digital presence.</p>
     </div>
 
     <div class="card">
       <h3>Goal</h3>
-      <p>Create a modern luxury identity and improve conversions.</p>
+      <p>Build a luxury identity and improve conversions.</p>
     </div>
 
     <div class="card">
       <h3>Solution</h3>
-      <p>Rebranding + UI redesign + social media campaign strategy.</p>
+      <p>Rebranding, visual identity system, and marketing strategy.</p>
     </div>
-
   </div>
 
   <div class="stats">
-    <div>
-      <h2>45%</h2>
-      <p>Engagement Increase</p>
+    <div><h2>45%</h2><p>Engagement Increase</p></div>
+    <div><h2>3x</h2><p>Reach Growth</p></div>
+    <div><h2>+28%</h2><p>Bookings</p></div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ===================== CASE STUDY 2 ===================== -->
+<div class="case">
+  <h1>UI/UX Portfolio Redesign</h1>
+  <p>Interactive portfolio experience designed for engagement and recruiter impact.</p>
+
+  <img class="hero-img" src="https://images.unsplash.com/photo-1559028012-481c04fa702d">
+
+  <div class="grid">
+    <div class="card">
+      <h3>Problem</h3>
+      <p>Static portfolio with low engagement.</p>
     </div>
 
-    <div>
-      <h2>3x</h2>
-      <p>Social Reach</p>
+    <div class="card">
+      <h3>Goal</h3>
+      <p>Create an interactive, modern UX experience.</p>
     </div>
 
-    <div>
-      <h2>+28%</h2>
-      <p>Booking Growth</p>
+    <div class="card">
+      <h3>Solution</h3>
+      <p>3D-inspired layout, animations, and storytelling flow.</p>
     </div>
   </div>
 
+  <div class="stats">
+    <div><h2>2.5x</h2><p>Engagement</p></div>
+    <div><h2>+60%</h2><p>Time on Page</p></div>
+    <div><h2>90%</h2><p>User Retention</p></div>
+  </div>
+</div>
 
+<div class="divider"></div>
+
+<!-- ===================== CASE STUDY 3 ===================== -->
+<div class="case">
+  <h1>Social Media Growth Campaign</h1>
+  <p>Content strategy and campaign that increased reach and brand awareness.</p>
+
+  <img class="hero-img" src="https://images.unsplash.com/photo-1557838923-2985c318be48">
+
+  <div class="grid">
+    <div class="card">
+      <h3>Problem</h3>
+      <p>Low engagement and inconsistent posting.</p>
+    </div>
+
+    <div class="card">
+      <h3>Goal</h3>
+      <p>Increase reach and audience engagement.</p>
+    </div>
+
+    <div class="card">
+      <h3>Solution</h3>
+      <p>Content calendar, reels strategy, and branding consistency.</p>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div><h2>300%</h2><p>Reach Increase</p></div>
+    <div><h2>4x</h2><p>Engagement</p></div>
+    <div><h2>10K+</h2><p>Impressions</p></div>
+  </div>
+</div>
 
 </section>
 
